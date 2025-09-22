@@ -49,3 +49,21 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
 ```
+
+## Git command :
+
+```sh
+
+# Check current status
+git status
+
+# Add the new file
+git add about.html
+
+# Commit the change
+git commit -m "Added about.html page"
+
+# Push (if remote is set)
+git push origin main
+
+```
